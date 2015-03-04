@@ -77,7 +77,7 @@ Versus using a more horizontal pattern:
 By injecting style through a separate class, we can effectively "tag" our element as having a specific set of traits, rather than relying on the inheritance chain to target the element in a specific case. You can think of data extensions in SilverStripe as giving you the option of mixing multiple PHP classes together.
 
 ### Extensions vs. other approaches
-If you've ever used Ruby on Rails, or perhaps more popularly, LESS, you've probably already identified this familiar concept as a "mixin," and that is an accurate assessment. SilverStripe extensions are very similar to mixins. They're single-purpose bundles of functionality that augment existing code. 
+If you've ever used Ruby on Rails, or perhaps more popularly, LESS or SASS/Compass, you've probably already identified this familiar concept as a "mixin," and that is an accurate assessment. SilverStripe extensions are very similar to mixins. They're single-purpose bundles of functionality that augment existing code. 
 
 Further, if you're fairly well-versed in PHP, you might be wondering why SilverStripe has reinvented the concept of *traits*, offered natively in PHP since its version 5.4 release. You're certainly not far off, but there are a few good reasons why SilverStripe uses its own extensions pattern rather than PHP traits.
 
